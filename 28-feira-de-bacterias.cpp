@@ -3,15 +3,16 @@
 using namespace std;
 
 int main(){
-	double n, qtde, dias, bigpop = 0, resp;
+	double max = 0, min;
+	int n, dias, resp, qtde;
 
 	cin >> n;
 
 	for(int i = 0; i < n; i++){
 		cin >> qtde >> dias;
 
-		qtde = log2(qtde) * dias;
-		if(x > bigpop){ resp = i; bigpop = x;}
+		min = log2(qtde) * dias;
+		if(min > max){ resp = i; max = min;}
 	}
 
 	cout << resp << endl;
