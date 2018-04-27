@@ -4,9 +4,9 @@ int main()
 {
 	int n;
 	double r;
-	
+
 	std::cin >> n;
-	
+
 	for(; n > 0; n--)
 	{
 		std::cin >> r;
