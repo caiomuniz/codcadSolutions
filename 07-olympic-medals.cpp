@@ -34,5 +34,7 @@ int main()
 			else if(iB1 < iB2)
 				printf("B\n");
 		}
-	}		
+	}
+	return 0;
 }
+
