@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	double max = 0, min;
+	double maior = 0, atual;
 	int n, dias, resp, qtde;
 
 	cin >> n;
@@ -11,8 +11,8 @@ int main(){
 	for(int i = 0; i < n; i++){
 		cin >> qtde >> dias;
 
-		min = log2(qtde) * dias;
-		if(min > max){ resp = i; max = min;}
+		atual = log2(qtde) * dias;
+		if(atual > maior){ resp = i; maior = atual;}
 	}
 
 	cout << resp << endl;

@@ -1,3 +1,3 @@
 # codcadSolutions
 
-All the solutions from CodCad I did
+Soluções para os problemas propostos no codcad.com
